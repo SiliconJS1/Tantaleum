@@ -115,6 +115,29 @@ input[type="color"],
 .uneditable-input {
     outline: none;
 }
+
+
+* {box-sizing: border-box}
+
+.barg {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.bar1 {width: 5%; background-color: #4CAF50;}
+.bar2 {width: 10%; background-color: #2196F3;}
+.bar3 {width: 10%; background-color: #f44336;}
+.bar4 {width: 20%; background-color: #808080;}
+.bar5 {width: 55%; background-color: #808080;}
+
+
 /*.form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
@@ -189,8 +212,8 @@ h5 {
     /*text-transform: uppercase;*/
 }
 h6 {
-    font-size: 1rem;
-    margin-bottom: .9rem;
+    font-size: 1.175rem;
+    margin-bottom: .5rem;
 }
 p {
     line-height: 1.375rem;
@@ -280,6 +303,12 @@ ul{
     width: 100%;
     height: 650px;
 }
+.terms-overlay {
+    background-color: rgba(76, 61, 114, 0.6);
+    width: 100%;
+    height: auto;
+}
+
 .home-overlay {
     background-color: rgba(237, 237, 237, 0.80);
     width: 100%;
